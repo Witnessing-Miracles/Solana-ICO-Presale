@@ -67,5 +67,5 @@ This project is currently in the development phase. You can customize the contra
 
 ## Author
 
-- **wls503pl** (GitHub: [Witnessing-Miracles](https://github.com/Witnessing-Miracles))
+- **wls503pl** (Peile Wu)
 - Email: peile.wu.1990@gmail.com
