@@ -1,0 +1,5 @@
+/home/dayda/Solana-ICO-Presale_Dapp/Contract/target/debug/deps/darling_macro-56caff222940887b.d: /home/dayda/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/darling_macro-0.20.11/src/lib.rs
+
+/home/dayda/Solana-ICO-Presale_Dapp/Contract/target/debug/deps/libdarling_macro-56caff222940887b.so: /home/dayda/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/darling_macro-0.20.11/src/lib.rs
+
+/home/dayda/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/darling_macro-0.20.11/src/lib.rs:
