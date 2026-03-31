@@ -1,5 +1,6 @@
-   0.229187778s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint: fingerprint error for solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_ico", ["cdylib", "lib"], "/home/dayda/Solana-ICO-Presale_Dapp/Contract/src/lib.rs", Edition2021) }
-   0.229257046s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/dayda/Solana-ICO-Presale_Dapp/Contract/target/debug/.fingerprint/solana-ico-16be995c94fd2235/lib-solana_ico`
+    Blocking waiting for file lock on package cache
+  14.452253138s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint: fingerprint error for solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("solana_ico", ["cdylib", "lib"], "/home/dayda/Solana-ICO-Presale_Dapp/Contract/src/lib.rs", Edition2021) }
+  14.452318514s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/dayda/Solana-ICO-Presale_Dapp/Contract/target/debug/.fingerprint/solana-ico-16be995c94fd2235/lib-solana_ico`
 
 Caused by:
     No such file or directory (os error 2)
@@ -41,8 +42,8 @@ Stack backtrace:
   24: <unknown>
   25: __libc_start_main
   26: <unknown>
-   0.267530058s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint: fingerprint error for solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("solana_ico", ["cdylib", "lib"], "/home/dayda/Solana-ICO-Presale_Dapp/Contract/src/lib.rs", Edition2021) }
-   0.267579663s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/dayda/Solana-ICO-Presale_Dapp/Contract/target/debug/.fingerprint/solana-ico-779acf8f3443289f/test-lib-solana_ico`
+  15.287108222s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint: fingerprint error for solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("solana_ico", ["cdylib", "lib"], "/home/dayda/Solana-ICO-Presale_Dapp/Contract/src/lib.rs", Edition2021) }
+  15.287149905s  INFO prepare_target{force=false package_id=solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract) target="solana_ico"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/dayda/Solana-ICO-Presale_Dapp/Contract/target/debug/.fingerprint/solana-ico-779acf8f3443289f/test-lib-solana_ico`
 
 Caused by:
     No such file or directory (os error 2)
@@ -85,6 +86,6 @@ Stack backtrace:
   25: __libc_start_main
   26: <unknown>
     Checking solana-ico v0.1.0 (/home/dayda/Solana-ICO-Presale_Dapp/Contract)
-error: could not compile `solana-ico` (lib) due to 7 previous errors; 18 warnings emitted
+error: could not compile `solana-ico` (lib test) due to 1 previous error; 17 warnings emitted
 warning: build failed, waiting for other jobs to finish...
-error: could not compile `solana-ico` (lib test) due to 7 previous errors; 18 warnings emitted
+error: could not compile `solana-ico` (lib) due to 1 previous error; 17 warnings emitted
