@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Mint, Token, TokenAccount};
 
-declare_id!("5o2FsriZhgrYaLjfoUsbqif9sVrQp2dXTBiN5TmepDmx");
+declare_id!("qxdvkyk9jV7usZmG3GVVeXgXSagx3pXSHvzfPf7pAfb");
 
 #[error_code]
 pub enum ErrorCode {
@@ -87,6 +87,7 @@ pub mod ico {
             .ok_or(ErrorCode::Overflow)?;
 
         // Transfer SOL from user to admin
+        // ix is instruction, combined with associated accounts, invoked by program
         let ix = anchor_lang::solana_program::system_instruction::transfer(
             &ctx.accounts.user.key(),
             &ctx.accounts.admin.key(),
